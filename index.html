@@ -5,10 +5,15 @@
     <link rel="icon" href="/wedfie-public/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEDFIE</title>
-    <script type="module" crossorigin src="/wedfie-public/assets/index-rpBHV_xq.js"></script>
-    <link rel="stylesheet" crossorigin href="/wedfie-public/assets/index-LSfhf7dA.css">
+    <script type="module" crossorigin src="/wedfie-public/assets/index-BeTHbBqJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/wedfie-public/assets/index-BwVqZVa1.css">
   </head>
   <body style="margin: 0; padding: 0;">
     <div id="app" style="display: flex; flex-direction: column;"></div>
+    <script>
+        const app = document.getElementById('app');
+        const isMobile = window.innerWidth <= 768;
+        app.style.padding = isMobile ? '0 1rem' : '0 2rem';
+    </script>
   </body>
 </html>
